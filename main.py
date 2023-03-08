@@ -24,16 +24,6 @@ APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 UPLOAD_FOLDER = os.path.join(APP_ROOT)
 
 
-# app.config.update(
-#     DEBUG=True,
-#     MAIL_SERVER='smtp.gmail.com',
-#     MAIL_PORT=465,
-#     MAIL_USE_SSL=True,
-#     MAIL_USERNAME='alexmoses994@gmail.com',
-#     MAIL_PASSWORD='134Alex558'
-#     )
-# mail=Mail(app)
-
      
 
 
