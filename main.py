@@ -36,7 +36,7 @@ UPLOAD_FOLDER = os.path.join(APP_ROOT)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.php')
 
 @app.route('/ServiceTopographic.php')
 def Services_topo():
