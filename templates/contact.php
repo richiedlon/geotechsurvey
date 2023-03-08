@@ -1,4 +1,3 @@
-{% from "_render_field.html" import render_field, render_radio_fields %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,15 +7,7 @@
 	
 
     <title>Contact</title>
-    	<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-125784534-1', 'auto');
-ga('send', 'pageview');
-</script>
 	<script src="static/js/gtag.js"></script>
 
     <!-- Favicon -->
@@ -82,34 +73,14 @@ ga('send', 'pageview');
                         </div>
                         <div class="address">
                             <a>84/A, Isipathana Road,Wewala,<br> Horana 12400, Sri Lanka  </a>
-                            <a>+94 0 713 599 558</a>
+                            <a>+94718172865</a>
                             <a>info@geotechsurvey.com</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 contact_info send_message">
-                    <h2>Send Us a Message</h2>
-                        <form id="upload-form" action="{{ url_for('contact') }}" method="POST" enctype="multipart/form-data">
-                                    {{ contact.csrf_token }}                 
-                                          <fieldset>
-                                             <!--<p style="color:red;">{{errors}}</p>  -->
-                                             <br>              
-                                            {{ render_field(contact.fname) }}
-                                            {{ render_field(contact.lname) }}
-                                            {{ render_field(contact.email) }}
-                                            
-                                            {{ render_field(contact.subject) }}
-                                            {{ render_field(contact.message) }}
+                    <!-- <h2>Send Us a Message</h2> -->
 
-                                            <div class="form-group">
-                                              <div class="col-md-6 col-lg-offset-2">
-                                                <button type="submit" class="btn btn-primary">Submit</button>
-                                                <button type="reset" class="btn btn-default">Cancel</button>
-                                                
-                                              </div>
-                                            </div>
-                                          </fieldset>
-                                      </form>
                 </div>
             </div>
         </div>

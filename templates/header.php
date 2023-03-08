@@ -5,7 +5,7 @@
     <section class="top_header_area">
         <div class="container">
             <ul class="nav navbar-nav top_nav">
-                <li><a href="#"><i class="fa fa-phone"></i>+94 071 3 599 558</a></li>
+                <li><a href="#"><i class="fa fa-phone"></i>+94 718172865</a></li>
                 <li><a href="#"><i class="fa fa-envelope-o"></i>info@geotechsurvey.com</a></li>
                 <li><a href="#"><i class="fa fa-clock-o"></i>Mon - SUN 8:00 - 20:00</a></li>
             </ul>
