@@ -29,7 +29,7 @@
                         <p>Have questions, comments or just want to say hello:</p>
                         <ul class="my_address">
                             <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>info@geotechsurvey.com</a></li>
-                            <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+94 071 3 599 558</a></li>
+                            <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+94718172865</a></li>
                             <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i><span>84/A, Isipathana road, Wewala, Horana (12400), Sri Lanka </span></a></li>
                         </ul>
                     </address>
@@ -37,7 +37,7 @@
             </div>
         </div>
         <div class="copyright_area">
-            Copyright 2017 All rights reserved. Designed by <a href="https://colorlib.com">Colorlib.</a>
+            Copyright 2023 All rights reserved. Designed by <a href="https://colorlib.com">Colorlib.</a>
         </div>
     </footer>
     <!-- End Footer Area -->
